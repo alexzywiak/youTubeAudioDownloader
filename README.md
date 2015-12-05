@@ -1,6 +1,6 @@
 # youTubeAudioDownloader
 Downloads mp3 audio from a youtube video to the server. <br>
-Make sure and install youtube-dl and ffmpeg. <br>
+Make sure to install youtube-dl and ffmpeg first. <br>
 If you have homebrew: brew install youtube-dl, brew install ffmpeg <br>
 
 1) npm install <br>
