@@ -18,8 +18,7 @@ router.get('/:video_id', function(req, res, next) {
 
   youtube_dl.on('exit', function(){
   	fs.readFile('./' + req.params.video_id + '.mp3', function(err, data){
-  		res.set({'Content-Type': 'audio/mpeg3'});
-  		res.send(data);
+  		res.render('/index', {title: 'Scrape Some Audio'});
   	});
   });
 });
